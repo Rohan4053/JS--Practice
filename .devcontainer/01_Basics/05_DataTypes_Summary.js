@@ -38,3 +38,13 @@ console.log(typeof heros);  //object
 console.log(typeof myFunction);  //function
 
 // 262.ecma-international.org/5.1/#sec-11.4.3
+
+// ++++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYTname='ericcsion'
+let anothername=myYTname
+anothername="cgar"
+console.log(anothername);
+console.log(myYTname);
+
